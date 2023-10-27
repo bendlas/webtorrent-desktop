@@ -7,3 +7,4 @@ npm-debug.log*
 # JetBrains IntelliJ IDEA project files
 .idea
 *.iml
+*~

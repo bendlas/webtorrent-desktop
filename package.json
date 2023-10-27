@@ -1,7 +1,7 @@
 {
   "name": "webtorrent-desktop",
   "description": "WebTorrent, the streaming torrent client. For Mac, Windows, and Linux.",
-  "version": "0.24.0",
+  "version": "0.24.1-pre",
   "author": {
     "name": "WebTorrent, LLC",
     "email": "feross@webtorrent.io",
@@ -68,6 +68,7 @@
     "electron-notarize": "1.2.2",
     "electron-osx-sign": "0.6.0",
     "electron-packager": "17.1.2",
+    "electron-reloader": "1.2.3",
     "electron-winstaller": "5.1.2",
     "gh-release": "7.0.2",
     "minimist": "1.2.8",
@@ -119,7 +120,7 @@
     "test": "standard && depcheck --ignores=standard,@babel/eslint-parser --ignore-dirs=build,dist",
     "test-integration": "npm run build && node ./test",
     "update-authors": "./bin/update-authors.sh",
-    "watch": "nodemon --exec \"npm run start\" --ext js,css --ignore build/ --ignore dist/"
+    "watch": "nodemon --exec \"npm run build\" --ext js,css --ignore build/ --ignore dist/"
   },
   "standard": {
     "parser": "@babel/eslint-parser"
